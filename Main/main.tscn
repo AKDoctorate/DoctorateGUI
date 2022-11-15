@@ -140,6 +140,31 @@ selected = 0
 popup/item_0/text = "loading3"
 popup/item_0/id = 0
 
+[node name="TODO" type="Panel" parent="TabContainer/Account"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="TabContainer/Account/TODO"]
+modulate = Color(0.435294, 0.435294, 0.435294, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 161.0
+offset_bottom = 161.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = -0.785398
+pivot_offset = Vector2(344, 284)
+text = "TODO"
+label_settings = SubResource("LabelSettings_nt1pv")
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="Roster" type="Control" parent="TabContainer"]
 visible = false
 layout_mode = 2
